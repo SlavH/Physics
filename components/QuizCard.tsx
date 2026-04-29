@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { Visualizer } from './Visualizer';
+import { MathText } from './MathText';
 import type { Question } from '@/data/questions';
 
 export const QuizCard = ({ question, onAnswer, onNext, questionIndex }: {
@@ -28,13 +28,13 @@ export const QuizCard = ({ question, onAnswer, onNext, questionIndex }: {
 
   return (
     <div className="p-6 bg-white rounded-xl shadow-lg border border-gray-200">
-      <h2 className="text-xl font-bold mb-4">
+      <div className="text-lg font-bold mb-4 leading-relaxed">
         <span className="text-blue-600 mr-2">Հարց {question.id}.</span>
-        {question.question}
-      </h2>
+        <MathText text={question.question} />
+      </div>
       {question.formula && (
-        <div className="bg-gray-100 p-3 rounded-lg text-center mb-4 font-mono text-lg">
-          {question.formula}
+        <div className="bg-gray-100 p-3 rounded-lg text-center mb-4">
+          <MathText text={question.formula} block />
         </div>
       )}
       <div className="grid gap-3">
@@ -73,7 +73,7 @@ export const QuizCard = ({ question, onAnswer, onNext, questionIndex }: {
                 }`}>
                   {confirmed && idx === question.correct_answer ? '✓' : confirmed && idx === selected && !isCorrect ? '✗' : idx + 1}
                 </span>
-                <span>{opt}</span>
+                <span className="leading-relaxed"><MathText text={opt} /></span>
               </div>
             </button>
           );
@@ -85,14 +85,9 @@ export const QuizCard = ({ question, onAnswer, onNext, questionIndex }: {
           <p className="font-bold text-lg">
             {isCorrect ? '✓ Ճիշտ է!' : '✗ Սխալ է!'}
           </p>
-          {!isCorrect && question.correct_answer !== null && (
+          {!isCorrect && (
             <p className="mt-1">
-              Ճիշտ պատասխանը՝ {question.correct_answer + 1}) {question.options[question.correct_answer]}
-            </p>
-          )}
-          {question.correct_answer === null && (
-            <p className="mt-1 text-gray-500">
-              Պատասխանը նշված չէ
+              Ճիշտ պատասխանը՝ {question.correct_answer + 1}) <MathText text={question.options[question.correct_answer]} />
             </p>
           )}
         </div>
