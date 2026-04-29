@@ -37,7 +37,7 @@ export const questions: Question[] = [
       "Դրական ու բացասական իոններով և նաև էլեկտրոններով",
       "Միայն ազատ էլեկտրոններով"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "1.2",
@@ -49,7 +49,7 @@ export const questions: Question[] = [
       "Հաղորդչում ազատ լիցքավորված մասնիկների և էլեկտրական դաշտի առկայությունը",
       "Բոլոր նշված պայմանները ճիշտ չեն"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "1.3",
@@ -61,7 +61,7 @@ export const questions: Question[] = [
       "Էլեկտրամագնիսական դաշտի տարածման արագությունը դաշտում:",
       "Էլեկտրոնների ջերմային շարժման միջին արագությունը;"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "1.4",
@@ -73,7 +73,7 @@ export const questions: Question[] = [
       "Uj ",
       "Uj "
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "1.5",
@@ -85,7 +85,7 @@ export const questions: Question[] = [
       "eNj St  ",
       "Ntj eS  "
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "1.6",
@@ -97,7 +97,7 @@ export const questions: Question[] = [
       "I U R",
       "Ej "
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "1.7",
@@ -109,7 +109,7 @@ export const questions: Question[] = [
       "Երկու մեծություններն էլ վեկտորական են",
       "Երկու մեծություններն էլ սկալյար են"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "1.8",
@@ -121,7 +121,7 @@ export const questions: Question[] = [
       "Ինդուկտիվությունը",
       "Նշված բոլոր մեծությունները"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "1.9",
@@ -133,7 +133,7 @@ export const questions: Question[] = [
       "IR",
       "Նշված պատասխաններում չկա ճիշտ տարբերակ"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "1.10",
@@ -145,7 +145,7 @@ export const questions: Question[] = [
       "Ոչ էլեկտրաստատիկ բնույթի ուժերը, որոնց աշխատանքը՝ լիցքը փակ շղթայով տեղափոխելիս հավասար է զրոյի:",
       "Նշված պատասխաններից ոչ մեկը ճիշտ չէ"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "1.11",
@@ -157,7 +157,7 @@ export const questions: Question[] = [
       "Նյուտոններով՝    Ն",
       "Ջոուլ բաժանած կուլոնի՝    Ջ/Կ"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "1.12",
@@ -169,7 +169,7 @@ export const questions: Question[] = [
       " 12I R   ",
       " 12I R   "
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "1.13",
@@ -181,7 +181,7 @@ export const questions: Question[] = [
       "I R ",
       "I r "
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "1.14",
@@ -193,7 +193,7 @@ export const questions: Question[] = [
       "   ,02 AB ABI r    ",
       " ,0 ABI r   "
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "1.15",
@@ -205,7 +205,7 @@ export const questions: Question[] = [
       " 0, ABI     ",
       " ,2 ABI r    "
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "2.1",
@@ -217,7 +217,7 @@ export const questions: Question[] = [
       "Որևէ հաղորդչով անցնող էլեկտրական հոսանքի առկայության դեպքում",
       "1-3 պատասխանները ճիշտ են"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "2.2",
@@ -229,7 +229,7 @@ export const questions: Question[] = [
       "Կոնտուրի մագնիսական մոմենտն ունի կամայական կողմնորոշում",
       "Կոնտուրի մագնիսական մոմենտն ուղղվում է արտաքին դաշտի ինդուկցիայի վեկտորի ուղղությամբ"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "2.3",
@@ -241,7 +241,7 @@ export const questions: Question[] = [
       "maxMIB S ",
       "Պատասխաններից ոչ մեկը ճիշտ չէ"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "2.4",
@@ -253,7 +253,7 @@ export const questions: Question[] = [
       "  1B  (Ն·մ)/Ա 1 Տեսլա",
       "1-3 պատասխանները ճիշտ չեն"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "2.5",
@@ -265,7 +265,7 @@ export const questions: Question[] = [
       "Գծագրին ուղղահայաց\` դեպի մեզ",
       "Գծագրին ուղղահայաց\` դեպի գծագրի հարթությունը"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "2.6",
@@ -277,7 +277,7 @@ export const questions: Question[] = [
       "IdB d r r    ",
       "Նշվածների մեջ չկա ճիշտ պատասխան"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "2.7",
@@ -289,7 +289,7 @@ export const questions: Question[] = [
       "Կազմում է 45 ",
       "Ուղղահայաց է՝ 90 "
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "2.8",
@@ -301,7 +301,7 @@ export const questions: Question[] = [
       "IB r  ",
       "IB r  "
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "2.9",
@@ -313,7 +313,7 @@ export const questions: Question[] = [
       "0IB R  ",
       "IB R "
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "2.10",
@@ -325,7 +325,7 @@ export const questions: Question[] = [
       "0B ",
       "0IB r  "
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "2.11",
@@ -337,7 +337,7 @@ export const questions: Question[] = [
       "0IB r  ",
       "0B "
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "2.12",
@@ -349,7 +349,7 @@ export const questions: Question[] = [
       "0IB r  ",
       "0B "
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "2.13",
@@ -361,7 +361,7 @@ export const questions: Question[] = [
       "m Bp R  ",
       "m BpR  "
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "2.14",
@@ -373,7 +373,7 @@ export const questions: Question[] = [
       "Ընտրանք 3 (տես նկար)",
       "Ընտրանք 4 (տես նկար)"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "2.15",
@@ -385,7 +385,7 @@ export const questions: Question[] = [
       "D -ում",
       "Նշված կետերից ոչ մեկում"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "2.16",
@@ -397,7 +397,7 @@ export const questions: Question[] = [
       "D -ում",
       "Նշված կետերից ոչ մեկում"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "3.1",
@@ -409,7 +409,7 @@ export const questions: Question[] = [
       "մագնիսական դաշտի ինդուկցիայի՝ որոշակի մակերևույթ թափանցող գծերի խտությունը և մակերևույթի նորմալի նկատմամբ ուղղությունը,",
       "մագնիսական դաշտի ինդուկցիայի գծերի թիվը տարրական մակերեսով:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "3.2",
@@ -421,7 +421,7 @@ export const questions: Question[] = [
       "⃗⃗ ⃗ ,",
       "Φ , որտեղ – ն ⃗⃗ վեկտորի և S մակերեսին տարված ⃗ միավոր վեկտորի կազմած անկյունն է:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "3.3",
@@ -433,7 +433,7 @@ export const questions: Question[] = [
       "Φբաց մակերևույթով ≠ 0 , ∫ ⃗⃗ ⃗ բաց ,",
       "Φփակ մակերևույթով 0 , ∫ ⃗⃗ ⃗ փակ , որտեղ Φ – ն մագնիսական դաշտի ուժագծերի հոսքն է տվյալ մակերևույթի S մակերեսով :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "3.4",
@@ -445,7 +445,7 @@ export const questions: Question[] = [
       "այն պայմանը, որ ցանկացած (բաց կամ փակ) մակերևույթով մագնիսական ուժագծերի հոսքը հավասար չէ զրոյի,",
       "այն հիմնարար սկզբունքը, որ մագնիսական դաշտի ուժագծերը սկսվում և ավարտվում են մագնիսական լիցքերի վրա:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "3.5",
@@ -457,7 +457,7 @@ export const questions: Question[] = [
       "∫ ⃗ ,",
       "∮ , որտեղ – ն կորի որևէ կետում նրան հարող տարրը բնութագրող վեկտորի և ինդուկցիայի ⃗⃗ վեկտորի կազմած անկյունն է:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "3.6",
@@ -469,7 +469,7 @@ export const questions: Question[] = [
       "∮ ⃗ ∑ ,",
       "∮ ⃗ ∏ , որտեղ –ն մագնիսական հաստատունն է, –ն միջավայրի մագնիսական թափանցելիությունն է, - ը կորի որևէ կետում նրան հարող տարրը բնութագրող վեկտորն է, ∑ – ն փակ կորով ընդգրկված էլեկտրական հոսանքների հանրահաշվական գումարն է (տես նկ.):"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "3.7",
@@ -481,7 +481,7 @@ export const questions: Question[] = [
       ",",
       ", որտեղ –ն մագնիսական հաստատունն է, –ն միջավայրի մագնիսական թափանցելիությունն է:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "3.8",
@@ -493,7 +493,7 @@ export const questions: Question[] = [
       ",",
       ":"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "4.1",
@@ -505,7 +505,7 @@ export const questions: Question[] = [
       "dF ,",
       "dF , որտեղ – ն ինդուկցիայի գծերի և հաղորդչի տարրի կազմած կազմած անկյունն է:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "4.2",
@@ -517,7 +517,7 @@ export const questions: Question[] = [
       ",",
       ":"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "4.3",
@@ -529,7 +529,7 @@ export const questions: Question[] = [
       "գծագրի հարթության մեջ դեպի վերև,",
       "գծագրի հարթության մեջ դեպի ձախ: շ"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "4.4",
@@ -541,7 +541,7 @@ export const questions: Question[] = [
       "F ,",
       "F , որտեղ – ն ինդուկցիայի\` ⃗⃗ և արագության\` ⃗ վեկտորների կազմած անկյունն է:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "4.5",
@@ -553,7 +553,7 @@ export const questions: Question[] = [
       "գծագրի հարթությունից դեպի դիտողը,",
       "դիտողից դեպի գծագրի հարթությունը:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "4.6",
@@ -565,7 +565,7 @@ export const questions: Question[] = [
       "m ,",
       "m :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "4.7",
@@ -577,7 +577,7 @@ export const questions: Question[] = [
       "շրջանակին տարված դրական նորմալ վեկտորը ուղղված լինի մագնիսական դաշտի ինդուկցիայի վեկտորի ուղղությանը ուղղահայաց,",
       "1) - 3) բոլոր պատասխանները ճիշտ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "4.8",
@@ -589,7 +589,7 @@ export const questions: Question[] = [
       "⃗ ,",
       "1) - 3) բոլոր պատասխանները ճիշտ չեն: որտեղ –ն հոսանքն է շրջանակում, S–ը՝ շրջանակով սահմա- նափակված մակերևույթի մակերեսը, ⃗ –ը՝ շրջանակին տարված դրական նորմալ վեկտորը:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "4.9",
@@ -601,7 +601,7 @@ export const questions: Question[] = [
       ",",
       "1) - 3) բոլոր պատասխանները ճիշտ չեն, որտեղ – ն հոսանքն է հաղորդչում, – ն՝ հաղորդչի տեղափոխման արդյունքում մագնիսական հոսքի փոփոխությունը:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "4.10",
@@ -613,7 +613,7 @@ export const questions: Question[] = [
       ",",
       "1) - 3) բոլոր պատասխանները ճիշտ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "5.1",
@@ -625,7 +625,7 @@ export const questions: Question[] = [
       "Միայն մետաղները:",
       "Վերը նշված պատասխանները ճիշտ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "5.2",
@@ -637,7 +637,7 @@ export const questions: Question[] = [
       "1) և 2) պատասխանները ճիշտ չեն,",
       "1) և 2) պատասխանները ճիշտ են:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "5.3",
@@ -649,7 +649,7 @@ export const questions: Question[] = [
       "Մագնիսական դաշտի ազդեցության տակ նյութը ձեռք է բերում զրոյից տարբեր գումարային մագնիսական մոմենտ և նյութում մագնիսական դաշտը կարող է ինչպես ուժեղանալ, այնպես էլ թուլանալ:",
       "Վերը նշված պատասխանները ճիշտ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "5.4",
@@ -661,7 +661,7 @@ export const questions: Question[] = [
       "Առանձին մոլեկուլի մագնիսական մոմենտն է:",
       "Վերը նշված պատասխանները ճիշտ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "5.5",
@@ -673,7 +673,7 @@ export const questions: Question[] = [
       "∑ :",
       "∑ ⃗ :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "5.6",
@@ -685,7 +685,7 @@ export const questions: Question[] = [
       "∮ ∑ մոլ որտեղ ∑ մոլ կոնտուրով ընդգրկված մոլեկուլային հոսանքների հանրահաշվական գումարն է:",
       "∮ ∑"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "5.7",
@@ -697,7 +697,7 @@ export const questions: Question[] = [
       "⃗⃗ ⃗",
       "BHJ "
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "5.8",
@@ -709,7 +709,7 @@ export const questions: Question[] = [
       "∮ ∑ մոլ որտեղ ∑ մոլ կոնտուրով ընդգրկված մոլեկուլային հոսանքների հանրահաշվական գումարն է:",
       "∮ ∑ մոլ"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "5.9",
@@ -721,7 +721,7 @@ export const questions: Question[] = [
       "⃗⃗ :",
       "⃗⃗ :"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "5.10",
@@ -733,7 +733,7 @@ export const questions: Question[] = [
       "-ն չափողականություն չունեցող մեծություն է և կարող է լինել ինչպես դրական այնպես էլ բացասական:",
       "Վերը նշված պատասխանները ճիշտ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "5.11",
@@ -745,7 +745,7 @@ export const questions: Question[] = [
       "",
       ":"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "5.12",
@@ -757,7 +757,7 @@ export const questions: Question[] = [
       "⃗ ⃗⃗ :",
       "⃗ ⃗⃗ , որտեղ -ն մագնիսական հաստատունն է:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "5.13",
@@ -769,7 +769,7 @@ export const questions: Question[] = [
       "Մեծ կամ փոքր վակումում ունեցած արժեքից:",
       "Վերը նշված պատասխանները ճիշտ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "5.14",
@@ -781,7 +781,7 @@ export const questions: Question[] = [
       "Որոնց մագնիսական ընկալունակությունը մոդուլով փոքր բացասական մեծություն է, և այդ նյութերում արտաքին մագնիսական դաշտը թուլանում է:",
       "Վերը նշված պատասխանները ճիշտ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "5.15",
@@ -793,7 +793,7 @@ export const questions: Question[] = [
       "Որոնց մագնիսական ընկալունակությունը շատ մեծ մեծություն է:",
       "Վերը նշված պատասխանները ճիշտ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "5.16",
@@ -805,7 +805,7 @@ export const questions: Question[] = [
       "Որոնց մագնիսական ընկալունակությունը մոդուլով փոքր բաասական մեծություն է:",
       "Վերը նշված պատասխանները ճիշտ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "6.1",
@@ -817,7 +817,7 @@ export const questions: Question[] = [
       "Միշտ վանում են:",
       "Միշտ ձգում են:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "6.2",
@@ -829,7 +829,7 @@ export const questions: Question[] = [
       "A և B մագնիսները կհասնեն միաժամանակ:",
       "Բոլոր պատասխանները հնարավոր են:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "6.3",
@@ -841,7 +841,7 @@ export const questions: Question[] = [
       "v sinqB  :",
       "sinIB  :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "6.4",
@@ -853,7 +853,7 @@ export const questions: Question[] = [
       "մագնիսը կոճի մեջ մտցնելիս կոճում էլեկտրական հոսանքի առաջացման երևույթը:",
       "երկու մագնիսական սլաքների փոխազդեցության երևույթը:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "6.5",
@@ -865,7 +865,7 @@ export const questions: Question[] = [
       "Ոչ մի դեպքում:",
       "Երկու դեպքում էլ:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "6.6",
@@ -877,7 +877,7 @@ export const questions: Question[] = [
       "Առաջինում և երրորդում:",
       "Բոլոր դեպքերում:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "6.7",
@@ -889,7 +889,7 @@ export const questions: Question[] = [
       "BS :",
       "BS :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "6.8",
@@ -901,7 +901,7 @@ export const questions: Question[] = [
       "միշտ հակառակ է ուղղված սկզբնական մագնիսական դաշտին:",
       "հակազդում է շրջանակում մագնիսական հոսքի փոփոխությանը:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "6.9",
@@ -913,7 +913,7 @@ export const questions: Question[] = [
       " :",
       "4 :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "6.10",
@@ -925,7 +925,7 @@ export const questions: Question[] = [
       "Կոնտուր թափանցող մագնիսական հոսքի փոփոխման արագությամբ:",
       "Վերը նշված բոլոր պատասխանները ճիշտ են"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "6.11",
@@ -937,7 +937,7 @@ export const questions: Question[] = [
       "Այո, եթե արագության մոդուլն աճի:",
       "Այո, եթե արագությամ մոդուլը նվազի:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "6.12",
@@ -949,7 +949,7 @@ export const questions: Question[] = [
       "Կմակածվի երկու դեպքերում էլ:",
       "Չի մակածվի:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "6.13",
@@ -961,7 +961,7 @@ export const questions: Question[] = [
       "60",
       "90 :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "6.14",
@@ -973,7 +973,7 @@ export const questions: Question[] = [
       "Հոսանք չի մակածվի:",
       "Մակածված հոսանքի ուղղությունը կախված է մագնիսական դաշտի ինդուկցիայի մոդուլի աճման արագությունից:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "6.15",
@@ -985,7 +985,7 @@ export const questions: Question[] = [
       "v B :",
       "v2 B  :"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "7.1",
@@ -997,7 +997,7 @@ export const questions: Question[] = [
       "A լամպի հետ միաժամանակ:",
       "A լամպից ուշ, բայց ավելի պայծառ:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "7.2",
@@ -1009,7 +1009,7 @@ export const questions: Question[] = [
       "LI :",
       "2LI :"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "7.3",
@@ -1021,7 +1021,7 @@ export const questions: Question[] = [
       "Հաղորդչի ծայրերին կիրառված լարումից:",
       "Միայն հաղորդչի ձևից և չափերից:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "7.4",
@@ -1033,7 +1033,7 @@ export const questions: Question[] = [
       "Կփոքրանա 4 անգամ:",
       "Կփոքրանա 16 անգամ:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "7.5",
@@ -1045,7 +1045,7 @@ export const questions: Question[] = [
       "12 9LL :",
       "12 3LL :"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "7.6",
@@ -1057,7 +1057,7 @@ export const questions: Question[] = [
       "L t I     :",
       "L I t     :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "7.7",
@@ -1069,7 +1069,7 @@ export const questions: Question[] = [
       "Փոքրացավ 4 անգամ:",
       "Փոքրացավ 8 անգամ:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "7.8",
@@ -1081,7 +1081,7 @@ export const questions: Question[] = [
       "18 Հն:",
       "Բոլոր պատասխանները սխալ են:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "7.9",
@@ -1093,7 +1093,7 @@ export const questions: Question[] = [
       "4 Վ:",
       "8 Վ:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "7.10",
@@ -1105,7 +1105,7 @@ export const questions: Question[] = [
       "0L n S :",
       "0L nV :"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "7.11",
@@ -1117,7 +1117,7 @@ export const questions: Question[] = [
       "անջատեն շղթան:",
       "Նշվածների մեջ չկա ճիշտ պատասխան:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "7.12",
@@ -1129,7 +1129,7 @@ export const questions: Question[] = [
       "  0 RtLI t I e   :",
       "  0 1 L tRI t I e    :"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "7.13",
@@ -1141,7 +1141,7 @@ export const questions: Question[] = [
       "  0 RtLI t I e   :",
       "  0 1 L tRI t I e    :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "7.14",
@@ -1153,7 +1153,7 @@ export const questions: Question[] = [
       "Bw  :",
       "Բոլոր երեք բանաձևերը ճիշտ են:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "7.15",
@@ -1165,7 +1165,7 @@ export const questions: Question[] = [
       "բազմապատկել տարրական dS մակերեսով և ինտեգրել ամբողջ S մակերեսով\` V W wdV  :",
       "Նշվածների մեջ չկա ճիշտ տարբերակ:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "8.1",
@@ -1177,7 +1177,7 @@ export const questions: Question[] = [
       "rot DHj t  ",
       "div D "
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "8.2",
@@ -1189,7 +1189,7 @@ export const questions: Question[] = [
       "Բնության մեջ մագնիսական լիցքեր չկան:",
       "Փոփոխվող մագնիսական դաշտն առաջացնում է մրրկային էլեկտրական դաշտ:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "8.3",
@@ -1201,7 +1201,7 @@ export const questions: Question[] = [
       "Բնության մեջ մագնիսական լիցքեր չկան:",
       "Փոփոխվող մագնիսական դաշտն առաջացնում է մրրկային էլեկտրական դաշտ:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "8.4",
@@ -1213,7 +1213,7 @@ export const questions: Question[] = [
       "rot DHj t  ",
       "div D "
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "8.5",
@@ -1225,7 +1225,7 @@ export const questions: Question[] = [
       "rot DHj t  ",
       "div D "
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "8.6",
@@ -1237,7 +1237,7 @@ export const questions: Question[] = [
       "S BdS ",
       "SV DdS dV  :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "8.7",
@@ -1249,7 +1249,7 @@ export const questions: Question[] = [
       "Միջավայրում լիցքավորված մարմինների առկայության և հաղորդականության հոսանքների բացակայության դեպքում:",
       "Միջավայրում լիցքավորված մարմինների բացակայության և հաղորդականության հոսանքների առկայության դեպքում:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "8.8",
@@ -1261,7 +1261,7 @@ export const questions: Question[] = [
       "Վակուումում:",
       "Միջավայրում լիցքավորված մարմինների բացակայության դեպքում:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "8.9",
@@ -1273,7 +1273,7 @@ export const questions: Question[] = [
       "Էլեկտրոնների շարժման արագությանը:",
       "Էլեկտրոնների կոնցենրացիային:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "9.1",
@@ -1285,7 +1285,7 @@ export const questions: Question[] = [
       "2cos t T   ",
       "2 t T   :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "9.2",
@@ -1297,7 +1297,7 @@ export const questions: Question[] = [
       " ",
       "  :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "9.3",
@@ -1309,7 +1309,7 @@ export const questions: Question[] = [
       "5cos 2 4x  ",
       "5cos 2 4xt   :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "9.4",
@@ -1321,7 +1321,7 @@ export const questions: Question[] = [
       "3mA",
       "22mA :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "9.5",
@@ -1333,7 +1333,7 @@ export const questions: Question[] = [
       "maxv A",
       "maxv At :"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "9.6",
@@ -1345,7 +1345,7 @@ export const questions: Question[] = [
       "K mAW ",
       "Նշվածների մեջ չկա ճիշտ պատասխան"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "9.7",
@@ -1357,7 +1357,7 @@ export const questions: Question[] = [
       "p mAW ",
       "t p mAWe   :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "9.8",
@@ -1369,7 +1369,7 @@ export const questions: Question[] = [
       "  ",
       " :"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "9.9",
@@ -1381,7 +1381,7 @@ export const questions: Question[] = [
       "    xa t A x t ",
       "    xa t x t    :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "9.10",
@@ -1393,7 +1393,7 @@ export const questions: Question[] = [
       "0",
       "  :"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "9.11",
@@ -1405,7 +1405,7 @@ export const questions: Question[] = [
       "0 0xx  ",
       "0 0xx "
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "9.12",
@@ -1417,7 +1417,7 @@ export const questions: Question[] = [
       "0 km ",
       "0 mk "
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "9.13",
@@ -1429,7 +1429,7 @@ export const questions: Question[] = [
       "Հավասար է 0 -ին",
       "Նշված բոլոր պատասխանները սխալ են"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "9.14",
@@ -1441,7 +1441,7 @@ export const questions: Question[] = [
       "2Tg ",
       "2Tg "
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "9.15",
@@ -1453,7 +1453,7 @@ export const questions: Question[] = [
       "C I mg ",
       "C g Im "
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "10.1",
@@ -1465,7 +1465,7 @@ export const questions: Question[] = [
       "C ունակության կոնդենսատորից և R դիմադրությունից կազմված շղթան:",
       "L ինդուկտիվության կոճից և R դիմադրությունից կազմված շղթան:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "10.2",
@@ -1477,7 +1477,7 @@ export const questions: Question[] = [
       "",
       "բանաձևով, որտեղ - կոնդեսատորի լիցքի առավելագույն արժեքն է, - շրջանային հաճախությունը:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "10.3",
@@ -1489,7 +1489,7 @@ export const questions: Question[] = [
       "ω = √(L/C)",
       "ω = √(C/L)"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "10.4",
@@ -1501,7 +1501,7 @@ export const questions: Question[] = [
       "√",
       "√"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "10.5",
@@ -1513,7 +1513,7 @@ export const questions: Question[] = [
       "W = CU²/2 + LI²/2",
       "W = q²/(2C)"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "10.6",
@@ -1525,7 +1525,7 @@ export const questions: Question[] = [
       "",
       "բանաձևով, որտեղ 𝜆-ն մարման լոգարիթմական դեկրեմենտն է, -ն տատանումների այն թիվն է, որոնք կատարվում են այն ժամանակում, որի ընթացքում լայնույթը փոքրանում է e անգամ:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "10.7",
@@ -1537,7 +1537,7 @@ export const questions: Question[] = [
       "x, v, m, Wₚ",
       "A, v, m, W"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "10.8",
@@ -1549,7 +1549,7 @@ export const questions: Question[] = [
       "𝜆",
       "𝜆 Որտեղ Q- ն կոնտուրի բարորակությունն է, -ն տատանումների այն թիվն է, որոնք կատարվում են այն ժամանակում, որի ընթացքում լայնույթը փոքրանում է անգամ:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "10.9",
@@ -1561,7 +1561,7 @@ export const questions: Question[] = [
       "̈ ̇",
       "̈ ̇ , որտեղ , √ :"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "10.10",
@@ -1573,7 +1573,7 @@ export const questions: Question[] = [
       "̈ ̇",
       "̈ ̇ որտեղ , :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "12.1",
@@ -1585,7 +1585,7 @@ export const questions: Question[] = [
       "որտեղ –ն սեփական տատանումների շրջանային հաճախությունն է, –ն՝ պարբերաբար ազդող արտաքին ուժի շրջանային հաճախությունը, - ն՝ մարման գործակիցը, - ն՝ պարբերաբար ազդող արտաքին ուժի լայնույթը:",
       "որտեղ –ն սեփական տատանումների շրջանային հաճախությունն է, –ն՝ պարբերաբար ազդող արտաքին ուժի շրջանային հաճախու-թյունը, -ն՝ մարման լոգարիթմական դեկրեմենտը, - ն՝ պարբերաբար ազդող արտաքին ուժի լայնույթը:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "12.2",
@@ -1597,7 +1597,7 @@ export const questions: Question[] = [
       "√( ) բանաձևով, որտեղ , -ն համակարգի սեփական տատանումների հաճախությունն է, –ն՝ հարկադրող ուժի փոփոխման հաճախությունը, -ն՝ արտաքին ուժի լայնույթը:",
       "√( ) բանաձևով, որտեղ , -ն համակարգի սեփական տատանումների հաճախությունն է, –ն՝ հարկադրող ուժի փոփոխման հաճախությունը, -ն՝ մարման լոգարիթմական դեկ - րեմենտը:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "12.3",
@@ -1609,7 +1609,7 @@ export const questions: Question[] = [
       "որտեղ ( -ն կոնտուրին մա- տուցվող փոփոխական լարման լայնույթն է), –ը մարման լոգարիթմական դեկրեմենտն է, √ –ը՝ սեփական տատա- նումների շրջանային հաճախությունը, - ն՝ կոնտուրին մատուցվող փոփոխական լարման շրջանային հաճախությունը:",
       "որտեղ ( -ն կոնտուրին մատուցվող փոփոխական լարման լայնույթն է), – ը մարման լոգարիթմական դեկրեմենտն է, √ –ը՝ կոնտուրին մատուցվող փոփոխական լարման շրջանային հաճախությունը, - ն՝ սեփական տատանումների շրջանային հաճախությունը:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "12.4",
@@ -1621,7 +1621,7 @@ export const questions: Question[] = [
       "√( ) √( ) , որտեղ -ն ներդաշնակորեն փոփոխվող հարկադրող ներգործության լայնույթն է, –ն՝ համա- կարգի սեփական տատանման շրջանային հաճածությունը, –ն՝ հար- կադրող գործոնի փոփոխման շրջանային հաճախությունը, –ը՝ մարման գործակիցը:",
       "√( ) √( ) , որտեղ -ն ներդաշնակո- րեն փոփոխվող հարկադրող ներգործության լայնույթն է, –ն՝ հա- մակարգի սեփական տատանման շրջանային հաճախությունը, –ն՝ հարկադրող գործոնի փոփոխման շրջանային հաճախությունը, –ը՝ մարման գործակիցը:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "12.5",
@@ -1633,7 +1633,7 @@ export const questions: Question[] = [
       "Հարկադրական տատանումների լայնույթի կտրուկ աճի երևույթը, երբ հարկադրող ու ժի հ աճախությունը (իսկ էլեկտրամագնիսակ ան տատանումների դեպքում՝ հարկադ րող փոփոխական լարման հաճախությունը) հավասարվում է համակարգի սեփական հաճախությանը, կոչվում է ռեզոնանս:",
       "Հարկադրական տատանումների լայնույթի կտրուկ աճի երևույթը, երբ հարկադրող ուժի փուլը (իսկ էլեկտրամագնիսական տատանումների դեպքում՝ հարկադրող փոփոխական լարման փուլը) դառնում է զրո, կոչվում է ռեզոնանս:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "12.6",
@@ -1645,7 +1645,7 @@ export const questions: Question[] = [
       "Կայունացված հարկադրական տատանումների լայնույթի համար ստացված՝ √( ) բանաձևում –ն հավասարեցնելով զրոյի:",
       "Կայունացված հարկադրական տատանումների լայնույթի համար ստացված՝ √( ) բանաձևում անտեսելով -ն:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "12.7",
@@ -1657,7 +1657,7 @@ export const questions: Question[] = [
       "-ն տատանողական համակարգը բնութագրող մեծություն է և կոչվում է դեկրեմենտ: Որքան մեծ է դեկրեմենտը, այնքան մեծ է ռեզոնանսային լայնույթը (նեղ և բարձր է ռեզոնանսային կորը):",
       "- ն տատանողական պրոցեսը բնութագրող մեծություն է և կոչվում է ռեզոնանսային վիճակի ֆակտոր: Որքան մեծ է ռեզոնանսային վիճակի ֆակտորը, այնքան մեծ է ռեզոնանսային լայնույթը (նեղ և բարձր է ռեզոնանսային կորը):"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "12.8",
@@ -1669,7 +1669,7 @@ export const questions: Question[] = [
       "Այն տատանումները, որոնք իրագործվում են շփման և դիմադրության ուժերի բացա կայության դեպքում կոչվում են հարկադրական տատանումներ:",
       "Այն տատանումները, որոնք իրագործվում են արտաքին՝ պարբերաբար փոփոխվող ուժի կամ արտաքին՝ պարբերաբար փոփոխվող ԷլՇՈւի բացակայության դեպքում, համապա տաս- խանաբար կոչվում են հարկադրական մեխանիկական կամ հարկադ- րական էլեկտրամագնիսական տատանումներ:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "12.9",
@@ -1681,7 +1681,7 @@ export const questions: Question[] = [
       "Եթե շփումը բացակայեր, ապա տատանումնե րի հաստատվելու պրոցեսը կտևեր անվերջ երկար ժամանակ:",
       "Երբ ռեզոնանսային հաճախությունը՝ √ , քանի որ √"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "12.10",
@@ -1693,7 +1693,7 @@ export const questions: Question[] = [
       "լայնույթի արժեքի կախվածությունը մար ման գործակցից արտահայտող ռեզոնանսային կորն է, որի տեսքը խստորեն կախված է հարկադրական տատանումների հաճախությունից:",
       "լայնույթի արժեքի կախվածությունը ռեզոնանսային հաճախությունից արտահայտող կորն է, որի տեսքը խստորեն կախված է համակարգում գործող դիմադրության ուժերից:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "13.1",
@@ -1705,7 +1705,7 @@ export const questions: Question[] = [
       "N t , t N :",
       "Բոլոր պատասխանները սխալ են:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "13.2",
@@ -1717,7 +1717,7 @@ export const questions: Question[] = [
       "2 վ",
       "5 վ"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "13.3",
@@ -1729,7 +1729,7 @@ export const questions: Question[] = [
       " Հց:",
       "0,125 Հց:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "13.4",
@@ -1741,7 +1741,7 @@ export const questions: Question[] = [
       "Մեխանիկական ալիքը նյութ է տեղափոխում:",
       "Մեխանիկական ալիքը միջավայրում մեխանիկական տատանում- ների տարածման պրոցեսն է:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "13.5",
@@ -1753,7 +1753,7 @@ export const questions: Question[] = [
       " v :",
       "Բոլոր պատասխանները սխալ են:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "13.6",
@@ -1765,7 +1765,7 @@ export const questions: Question[] = [
       "b և e:",
       "a և d:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "13.7",
@@ -1777,7 +1777,7 @@ export const questions: Question[] = [
       "Ձայնը տարածվում է միայն օդում:",
       "Ձայնը տարածվում է գազային, հեղուկ և պինդ միջավայրերում, բայց չի տարածվում վակուումում:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "13.8",
@@ -1789,7 +1789,7 @@ export const questions: Question[] = [
       "Ալիքի երկարությունը:",
       "Տատանումների լայնույթը:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "13.9",
@@ -1801,7 +1801,7 @@ export const questions: Question[] = [
       "A -ն՝ վերև, B-ն՝ ներքև:",
       "A -ն՝ ներքև B-ն՝ վերև:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "13.10",
@@ -1813,7 +1813,7 @@ export const questions: Question[] = [
       "340 մ/վ:",
       "100000 մ/վ:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "13.11",
@@ -1825,7 +1825,7 @@ export const questions: Question[] = [
       "Միջավայրի այն կետերի երկրաչափական տեղը, որոնք տատանվում են 2 փուլերի տարբերությամբ:",
       "Բոլորը պատասխանները սխալ են:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "13.12",
@@ -1837,7 +1837,7 @@ export const questions: Question[] = [
       "ալիքի այն երկու կետերի ամենամոտ հեռավորությունն է, որոնք տատանվում են միևնույն փուլում:",
       "1) - 3) պատասխանները ճիշտ են:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "13.13",
@@ -1849,7 +1849,7 @@ export const questions: Question[] = [
       " , v xx t t  :",
       " , v xx t t   :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "13.14",
@@ -1861,7 +1861,7 @@ export const questions: Question[] = [
       "էլեկտրամագնիսական ալիքը տարածության մեջ ժամանակի ընթացքում փոփոխական մագնիսական դաշտի տարածումն է:",
       "1)-3) բոլոր պատասխանները սխալ են:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "13.15",
@@ -1873,7 +1873,7 @@ export const questions: Question[] = [
       "Ալիքի տարածման ուղղությամբ տեղափոխած էներգիան:",
       "Ալիքի տարածմանն ուղղահայաց միավոր մակերեսով, միավոր ժամանակում տեղափոխած էներգիան:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "16.1",
@@ -1885,7 +1885,7 @@ export const questions: Question[] = [
       "դիսպերսիա:",
       "բևեռացում:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "16.2",
@@ -1897,7 +1897,7 @@ export const questions: Question[] = [
       "Լուսային ճառագայթների շեղումը երկրաչափական ստվերի տի- րույթ:",
       "Լուսավոր կետի հայտնվելը փոքրիկ, անթափանց սկավառակի ստվերի կենտրոնում:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "16.3",
@@ -1909,7 +1909,7 @@ export const questions: Question[] = [
       "aA 2 : 2) aA  :",
       "aAa 2 :"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "16.4",
@@ -1921,7 +1921,7 @@ export const questions: Question[] = [
       "0,6 մկմ:",
       "0:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "16.5",
@@ -1933,7 +1933,7 @@ export const questions: Question[] = [
       "Կուժեղանա, քանի որ ընթացքի տարբերությունը հավասար է զույգ թվով կիսաալիքի երկարության:",
       "Կուժեղանա, քանի որ ընթացքի տարբերությունը հավասար է կենտ թվով կիսաալիքի երկարության:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "16.6",
@@ -1945,7 +1945,7 @@ export const questions: Question[] = [
       "Լամպի առաքած լուսային ալիքները կոհերենտ չեն:",
       "Լամպի ապակին ցրում է լույսը:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "16.7",
@@ -1957,7 +1957,7 @@ export const questions: Question[] = [
       "Ե՛վ ա-ն, և՛ բ-ն:",
       "Ո՛չ ա-ն, ո՛չ բ-ն:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "16.8",
@@ -1969,7 +1969,7 @@ export const questions: Question[] = [
       "Սպիտակ լույսի տարալուծումը տարբեր գույնի լույսերի:",
       "Բարակ թաղանթների գունավորման երևույթը:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "16.9",
@@ -1981,7 +1981,7 @@ export const questions: Question[] = [
       "Լույսի դիֆրակցիան:",
       "Ստվերի առաջացումը:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "16.10",
@@ -1993,7 +1993,7 @@ export const questions: Question[] = [
       "Ե՛վ ա, և՛ բ:",
       "Ո՛չ ա, ո՛չ բ:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "16.11",
@@ -2005,7 +2005,7 @@ export const questions: Question[] = [
       "Ռադիոալիքների հաճախությունը շատ անգամ մեծ է լույսի ալիք- ների հաճախությունից:",
       "Լույսի ալիքները էլեկտրամագնիսական ալիքներ չեն:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "16.12",
@@ -2017,7 +2017,7 @@ export const questions: Question[] = [
       "bad  : 2) )( 1 bad  :",
       "bad  :"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "16.13",
@@ -2029,7 +2029,7 @@ export const questions: Question[] = [
       "L aLd 22  : 2) 22 aL dL  :",
       "22 aL da  :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "16.14",
@@ -2041,7 +2041,7 @@ export const questions: Question[] = [
       "B կետի մաքսիմումը կվերանա, իսկ իսկ մնացած մաքսիմումները կմնան իրենց տեղերում:",
       "Պատկերը չի փոխվի:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "16.15",
@@ -2053,7 +2053,7 @@ export const questions: Question[] = [
       "Հնարավոր է լինի երկայնական կամ լայնական:",
       "Ո՛չ երկայնական է, ո՛չ լայնական:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "16.16",
@@ -2065,7 +2065,7 @@ export const questions: Question[] = [
       "լույսը երկայնական ալիք է:",
       "լույսը լիցքավորված մասնիկների հոսք է:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "16.17",
@@ -2077,7 +2077,7 @@ export const questions: Question[] = [
       "Այն լայնական ալիք է:",
       "Այն բևեռացման բոլոր հնարավոր ուղղություններով ալիքների համախումբ է:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "16.18",
@@ -2089,7 +2089,7 @@ export const questions: Question[] = [
       "Բևեռացուցչի: 2) Ոսպնյակի:",
       "Դիֆրակտային ցանցի:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "17.1",
@@ -2101,7 +2101,7 @@ export const questions: Question[] = [
       "երկու max, երեք min,",
       "երկու max, երկու min:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "17.2",
@@ -2113,7 +2113,7 @@ export const questions: Question[] = [
       "ունի գոտիական բնույթ",
       "կարող է լինել և գծային, և անընդհատ:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "17.3",
@@ -2125,7 +2125,7 @@ export const questions: Question[] = [
       "ջերմային ճառագայթումը ոչ հավասարակշիռ է:",
       "ջերմային ճառագայթումը խիստ անհավասարակշիռ է:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "17.4",
@@ -2137,7 +2137,7 @@ export const questions: Question[] = [
       "երկուսը միաժամանակ,",
       "պատասխանը կախված է հովացման ընթացքից"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "17.5",
@@ -2149,7 +2149,7 @@ export const questions: Question[] = [
       "8,",
       "16:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "17.6",
@@ -2161,7 +2161,7 @@ export const questions: Question[] = [
       "մնում է նույն տեղում,",
       "գոյանում է երկու մաքսիմում:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "17.7",
@@ -2173,7 +2173,7 @@ export const questions: Question[] = [
       "Կմեծանա 36 անգամ,",
       "չի փոխվի:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "17.8",
@@ -2185,7 +2185,7 @@ export const questions: Question[] = [
       "81 անգամ,",
       "100 անգամ:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "17.9",
@@ -2197,7 +2197,7 @@ export const questions: Question[] = [
       "7250Կ,",
       "1050Կ: Վինի հաստատունի արժեքը ընդունել -3 մ Կ:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "17.10",
@@ -2209,7 +2209,7 @@ export const questions: Question[] = [
       "Ջերմային ճառագայթումը՝ էլեկտրոններով ռմբակոծելու արդյունքում մարմնի առաքած ջերմաքանակն է:",
       "Ջերմային ճառագայթումը մարմնի կողմից՝ իր ներքին էներ- գիայի հաշվին էլեկտրամագնիսական ալիքների առաքումն է:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "17.11",
@@ -2221,7 +2221,7 @@ export const questions: Question[] = [
       "Ճառագայթման ինտեգրալային ընդունակությունը՝  TR միավոր ժամանակում, բոլոր հաճախություններով առաքված էլեկտրամագնիսական ալիքների ամբողջ էներգիան է տվյալ ջերմաստիճանում:",
       "Ճառագայթման ինտեգրալային ընդունակությունը՝  TR մարմնի միավոր մակերեսից, միավոր ժամանակում, տվյալ հաճախությամբ առաքված էլեկտրամագնիսական ալիքների ամբողջ էներգիան է տվյալ ջերմաստիճանում:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "17.12",
@@ -2233,7 +2233,7 @@ export const questions: Question[] = [
       "Ճառագայթման սպեկտրային ընդունակությունը՝  ,vTr տվյալ հաճախությանը հարող՝ հաճախությունների միավոր միջակայքում, մարմնի մակերևույթի միավոր մակերեսից, միավոր ժամանակում ճառագայթած էներգիան է տվյալ ջերմաստիճանում:",
       "Ճառագայթման սպեկտրային ընդունակությունը՝  ,vTr միավոր ժամանակում մարմնի առաքված էլեկտրամագնիսական ալիքների ամբողջ էներգիան է տվյալ ջերմաստիճանում:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "17.13",
@@ -2245,7 +2245,7 @@ export const questions: Question[] = [
       "ամբողջովին կլանում է իր վրա ընկնող ճառագայթման էներգիան, կախված ջերմաստիճանից և անկախ հաճախությունից և բևեռացումից:",
       "Նշվածների մեջ չկա ճիշտ պատասխան:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "17.14",
@@ -2257,7 +2257,7 @@ export const questions: Question[] = [
       "որևէ մարմնի ,Tr -ի հարաբերությունը մեկ այլ մարմնի ,Ta -ին, հանդիսանում է հաճախության և ջերմաստիճանի ունիվերսալ ֆունկցիա :",
       "Բոլոր նշված պատասխանները ճիշտ են:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "17.15",
@@ -2269,7 +2269,7 @@ export const questions: Question[] = [
       "Նյութը կազմող ատոմների՝ տատանակների էներգիան կարող է փոխվել միայն մարմինը տաքացնելիս:",
       "Նյութը կազմող ատոմների՝ տատանակների էներգիան ջերմային ճառագայթման ժամանակ կարող է փոխվել ընդհատ բաժիններով՝ դիսկրետ:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "18.1",
@@ -2281,7 +2281,7 @@ export const questions: Question[] = [
       " h ,",
       "ր  hc :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "18.2",
@@ -2293,7 +2293,7 @@ export const questions: Question[] = [
       "c pE  ,",
       "2pcE  :"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "18.3",
@@ -2305,7 +2305,7 @@ export const questions: Question[] = [
       "P c  ,",
       "P hc  :"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "18.4",
@@ -2317,7 +2317,7 @@ export const questions: Question[] = [
       "mc Nh ,",
       "mc h :"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "18.5",
@@ -2329,7 +2329,7 @@ export const questions: Question[] = [
       "ֆոտոհոսանք առաջանում է լույսի որոշակի հաճախությունից փոքր հաճախությունների դեպում:",
       "հագեցման ֆոտոհոսանքի ուժն ուղիղ համեմատական է լույսի ուժգնությանը:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "18.6",
@@ -2341,7 +2341,7 @@ export const questions: Question[] = [
       "Երկուսն էլ՝ միաժամանակ:",
       "Երկուսն էլ չեն լիցքաթափվի:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "18.7",
@@ -2353,7 +2353,7 @@ export const questions: Question[] = [
       "2vmhA   ,",
       "Amh  2v :"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "18.8",
@@ -2365,7 +2365,7 @@ export const questions: Question[] = [
       "Մանուշակագույն լույսով լուսավորելիս,",
       "Բոլոր դեպքերում նույնը կլինի:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "18.9",
@@ -2377,7 +2377,7 @@ export const questions: Question[] = [
       "չի փոխվում,",
       "կախված ելքի աշխատանքից\` կարող է մեծանալ կամ փոքրանալ:"
     ],
-    correct_answer: null,
+    correct_answer: 1,
   },
   {
     id: "18.10",
@@ -2389,7 +2389,7 @@ export const questions: Question[] = [
       "Չի փոխվի,",
       "Կփոքրանա 4 անգամ:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "18.11",
@@ -2401,7 +2401,7 @@ export const questions: Question[] = [
       "Ելքի աշխատանքից և ընկնող լույսի հաճախությունից,",
       "Ելքի աշխատանքից և էլեկտրոդների միջև հեռավորությունից:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "18.12",
@@ -2413,7 +2413,7 @@ export const questions: Question[] = [
       "Ընկնող լույսի հաճախությունը մեծացնենք,",
       "Ընկնող լույսի հաճախությունը փոքրացնենք:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "18.13",
@@ -2425,7 +2425,7 @@ export const questions: Question[] = [
       "Մեծանում է ավելի քան 2 անգամ,",
       "Փոքրանում է 2 անգամ:"
     ],
-    correct_answer: null,
+    correct_answer: 2,
   },
   {
     id: "18.14",
@@ -2437,7 +2437,7 @@ export const questions: Question[] = [
       "Կմեծանա կամ կփոքրանա,",
       "Փոքրանում է:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
   {
     id: "18.15",
@@ -2449,7 +2449,7 @@ export const questions: Question[] = [
       "3 անգամ,",
       "4 անգամ:"
     ],
-    correct_answer: null,
+    correct_answer: 3,
   },
   {
     id: "18.16",
@@ -2461,6 +2461,6 @@ export const questions: Question[] = [
       "բ-ն և գ-ն,",
       "ա-ն և բ-ն:"
     ],
-    correct_answer: null,
+    correct_answer: 0,
   },
 ];
