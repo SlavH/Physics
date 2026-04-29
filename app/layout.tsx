@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Physics Quiz Armenia",
-  description: "Educational physics quiz in Armenian",
+  title: "Ֆիզիկայի թեստեր",
+  description: "Ֆիզիկայի 2020 թվականի երկրորդ կիսամյակի քննական թեստեր",
 };
 
 export default function RootLayout({
