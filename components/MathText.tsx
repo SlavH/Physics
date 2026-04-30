@@ -14,7 +14,10 @@ const latexCommands = [
   'Sigma', 'Lambda', 'xi', 'zeta', 'eta', 'theta', 'sigma', 'tau',
   'cdot', 'times', 'div', 'leq', 'geq', 'sqrt', 'sum', 'int',
   'vec', 'left', 'right', 'frac', 'infty', 'approx', 'neq',
-  'partial', 'nabla', 'prod', 'oplus', 'otimes'
+  'partial', 'nabla', 'prod', 'oplus', 'otimes',
+  'sin', 'cos', 'tan', 'oint', 'circ', 'mid', 'hat', 'ell', 'psi', 'epsilon',
+  'mathrm', 'text', 'overline', 'underline', 'widehat', 'tilde',
+  'pm', 'mp', 'gg', 'll', 'propto', 'prime'
 ];
 
 export const MathText: React.FC<MathTextProps> = ({ text, block }) => {
@@ -30,18 +33,19 @@ export const MathText: React.FC<MathTextProps> = ({ text, block }) => {
     const parts: { type: 'text' | 'math'; content: string }[] = [];
     let lastIndex = 0;
 
-    const pattern = new RegExp('\\\\(' + latexCommands.join('|') + ')(?:\\{([^}]*)\\})?', 'g');
+    const pattern = new RegExp(
+      '\\\\(' + latexCommands.join('|') + ')' +
+      '(?:[_^][a-zA-Z0-9]+)?' +
+      '(?:\\{[^{}]*\\})*',
+      'g'
+    );
 
     let match;
     while ((match = pattern.exec(text)) !== null) {
       if (match.index > lastIndex) {
         parts.push({ type: 'text', content: text.slice(lastIndex, match.index) });
       }
-      let latex = '\\' + match[1];
-      if (match[2]) {
-        latex += '{' + match[2] + '}';
-      }
-      parts.push({ type: 'math', content: latex });
+      parts.push({ type: 'math', content: match[0] });
       lastIndex = match.index + match[0].length;
     }
 
