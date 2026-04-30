@@ -45,12 +45,12 @@ export const questions: Question[] = [
     topic: "Մագնիսական դաշտ",
     question: "Ո՞ր բանաձևն արտահայտում է շրջանային հոսանքի կենտրոնում մագնիսական դաշտի ինդուկցիայի վեկտորի մոդուլը:",
     options: [
-      "μ0 I /(2R)",
-      "μ0 I /(2πR)",
-      "μ0 I /(πR)",
-      "0"
+      "B = \\frac{\\mu_0 I}{2R}",
+      "B = \\frac{\\mu_0 I}{2\\pi R}",
+      "B = \\frac{\\mu_0 I}{\\pi R}",
+      "B = 0"
     ],
-    correct_answer: 1,
+    correct_answer: 0,
   },
   {
     id: "1.2",
@@ -81,10 +81,10 @@ export const questions: Question[] = [
     topic: "Էլեկտրական հոսանք",
     question: "Որոշել երկարությամբ երկաթե հաղորդչում հոսանքի խտությունը, եթե նրա ծայրերին կիրառված է U լարում, իսկ երկաթի տեսակարար դիմադրությունը \\rho է:",
     options: [
-      "j = U / (\\rho \\ L)",
-      "j = U \\rho / L",
-      "j = U L / \\rho",
-      "j = \\rho / (U L)"
+      "j = \\frac{U}{\\rho L}",
+      "j = \\frac{U \\rho}{L}",
+      "j = \\frac{U L}{\\rho}",
+      "j = \\frac{\\rho}{U L}"
     ],
     correct_answer: 0,
   },
@@ -93,10 +93,10 @@ export const questions: Question[] = [
     topic: "Էլեկտրական հոսանք",
     question: "Որոշել S լայնական հատույթի մակերես ունեցող հաղորդչովանցնող հոսանքի j խտությունը, եթե t ժամանակում լայնական հատույթով անցնում են N թվով էլեկտրոններ:",
     options: [
-      "j = e N / (S t)",
-      "j = e N / (t S)",
-      "j = e N t / S",
-      "j = e N / (S) * t"
+      "j = \\frac{eN}{St}",
+      "j = \\frac{eN}{tS}",
+      "j = \\frac{eNt}{S}",
+      "j = \\frac{eN}{S} \\cdot t"
     ],
     correct_answer: 0,
   },
@@ -105,12 +105,12 @@ export const questions: Question[] = [
     topic: "Էլեկտրական հոսանք",
     question: "Նշված բանաձևերից ո՞րն է արտահայտում Օհմի օրենքը դիֆերենցիալ տեսքով: ( U -ն լարումն է, I -ն\` հոսանքի ուժը, R -ը\` դիմադրությունը, \\rho -ն\` տեսակարար դիմադրությունը, E -ն\` էլեկտրական դաշտի լարվածությունը հաղորդչի ներսում):",
     options: [
-      "UI R=",
-      "Uj \\rho=",
-      "I U R=\\cdot",
-      "Ej \\rho="
+      "U = IR",
+      "j = \\frac{U}{\\rho}",
+      "I = U \\cdot R",
+      "j = \\frac{E}{\\rho}"
     ],
-    correct_answer: 0,
+    correct_answer: 3,
   },
   {
     id: "1.7",
@@ -178,10 +178,10 @@ export const questions: Question[] = [
     topic: "Էլեկտրական հոսանք",
     question: "Օհմի օրենքը շղթայի անհամասեռ տեղամասի համար:",
     options: [
-      "ε = U = IR",
-      "I R = ε",
-      "ε = I(R + r)",
-      "ε = U + I r"
+      "\\varepsilon = U = IR",
+      "IR = \\varepsilon",
+      "\\varepsilon = I(R + r)",
+      "\\varepsilon = U + Ir"
     ],
     correct_answer: 3,
   },
@@ -190,10 +190,10 @@ export const questions: Question[] = [
     topic: "Էլեկտրական հոսանք",
     question: "Բեռնած Օհմի օրենքը փակ շղթայում (լրիվ) համապատասխան օգտագործելիս այն հավասարեցացմունքով է ներկայացվում. Ո՞ր տարբերակը ճիշտ է:",
     options: [
-      "ε = U + I r",
-      "ε = U - I r",
-      "ε = I(R + r)",
-      "ε = I R"
+      "\\varepsilon = U + Ir",
+      "\\varepsilon = U - Ir",
+      "\\varepsilon = I(R + r)",
+      "\\varepsilon = IR"
     ],
     correct_answer: 2,
   },
@@ -308,12 +308,12 @@ export const questions: Question[] = [
   {
     id: "2.9",
     topic: "Մագնիսական դաշտ",
-    question: "Նշված բանաձևերից ո՞րն է արտահայտում R շառավղով շրջանային հոսանքի ստեղծած մագնիսական դաշտի ինդուկցիայի B վեկտորի մոդուլը, այդ շրջանագծի կենտրոնում ( 0\\mu - ն մագնիսական հաստատունն է, I -ն\` հոսանքի ուժը) :",
+    question: "Նշված բանաձևերից ո՞րն է արտահայտում R շառավղով շրջանային հոսանքի ստեղծած մագնիսական դաշտի ինդուկցիայի B վեկտորի մոդուլը, այդ շրջանագծի կենտրոնում ( \\mu_0 - ն մագնիսական հաստատունն է, I -ն\` հոսանքի ուժը) :",
     options: [
-      "μ0 I / (2R)",
-      "μ0 I / (2π R)",
-      "0",
-      "μ0 I / R"
+      "B = \\frac{\\mu_0 I}{2R}",
+      "B = \\frac{\\mu_0 I}{2\\pi R}",
+      "B = 0",
+      "B = \\frac{\\mu_0 I}{R}"
     ],
     correct_answer: 0,
   },
@@ -322,46 +322,46 @@ export const questions: Question[] = [
     topic: "Մագնիսական դաշտ",
     question: "Միմյանցից r հեռավորության վրա վակուումում երկու անվերջ երկար, զուգահեռ և նույն ուղղությամբ հոսող խոշոր հավասար հոսանքներ: Ո՞ր է միջնակետում արդյունարար մագնիսական դաշտի ինդուկցիան:",
     options: [
-      "μ0 I / (2π R)",
-      "μ0 I / (π R)",
-      "0",
-      "μ0 I / R"
+      "B = \\frac{\\mu_0 I}{2\\pi R}",
+      "B = \\frac{\\mu_0 I}{\\pi R}",
+      "B = 0",
+      "B = \\frac{\\mu_0 I}{R}"
     ],
-    correct_answer: 1,
+    correct_answer: 2,
   },
   {
     id: "2.11",
     topic: "Մագնիսական դաշտ",
-    question: "Միմյանցից r հեռավորության վրա վակուումում գտնվող\` երկու անվերջ երկար, իրար զուգահեռ, ուղիղ հաղորդալարերով, հակառակ ուղղություններով հոսում են մեծությամբ հավասար հոսանքներ 12I I I== : Ինչի՞ է հավասար արդյունարար մագնիսական դաշտի ինդուկցիան հաղորդալարերի միջև՝ հեռավորության միջնակետում ( 0\\mu - ն մագնիսական հաստատունն է, I - ն\` հոսանքի ուժը):",
+    question: "Միմյանցից r հեռավորության վրա վակուումում գտնվող\` երկու անվերջ երկար, իրար զուգահեռ, ուղիղ հաղորդալարերով, հակառակ ուղղություններով հոսում են մեծությամբ հավասար հոսանքներ I_1 = I_2 = I: Ինչի՞ է հավասար արդյունարար մագնիսական դաշտի ինդուկցիան հաղորդալարերի միջև՝ հեռավորության միջնակետում ( \\mu_0 - ն մագնիսական հաստատունն է, I - ն\` հոսանքի ուժը):",
     options: [
-      "02 IB r \\mu \\alpha=",
-      "IB r \\mu \\alpha=",
-      "0IB r \\mu \\alpha=",
-      "0B ="
+      "B = \\frac{2\\mu_0 I}{\\pi r}",
+      "B = \\frac{\\mu_0 I}{\\pi r}",
+      "B = \\frac{\\mu_0 I}{2\\pi r}",
+      "B = 0"
     ],
     correct_answer: 3,
   },
   {
     id: "2.12",
     topic: "Մագնիսական դաշտ",
-    question: "Միմյանցից r հեռավորության վրա վակուումում գտնվող\` երկու անվերջ երկար, իրար ուղղահայաց, ուղիղ հաղորդալարերով, հոսում են մեծությամբ հավասար հոսանքներ 12I I I== : Ինչի՞ է հավասար արդյունարար մագնիսական դաշտի ինդուկցիան հաղորդալարերի միջև՝ հեռա- վորության միջնակետում ( 0\\mu - ն մագնիսական հաստատունն է, I -ն\` հոսանքի ուժը):",
+    question: "Միմյանցից r հեռավորության վրա վակուումում գտնվող\` երկու անվերջ երկար, իրար ուղղահայաց, ուղիղ հաղորդալարերով, հոսում են մեծությամբ հավասար հոսանքներ I_1 = I_2 = I: Ինչի՞ է հավասար արդյունարար մագնիսական դաշտի ինդուկցիան հաղորդալարերի միջև՝ հեռա- վորության միջնակետում ( \\mu_0 - ն մագնիսական հաստատունն է, I -ն\` հոսանքի ուժը):",
     options: [
-      "02 IB r \\mu \\alpha=",
-      "IB r \\mu \\alpha=",
-      "0IB r \\mu \\alpha=",
-      "0B ="
+      "B = \\frac{2\\mu_0 I}{\\pi r}",
+      "B = \\frac{\\mu_0 I}{\\pi r}",
+      "B = \\frac{\\mu_0 I}{2\\pi r}",
+      "B = 0"
     ],
     correct_answer: 0,
   },
   {
     id: "2.13",
     topic: "Մագնիսական դաշտ",
-    question: "Հոսանքակիր շրջանային գալարի կենտրոնում մագնիսական դաշտի ինդուկցիայի մոդուլը mp-ն է, իսկ գալարի շառավիղը՝ R: Ի՞նչ բանաձևով կարտահայտվի շրջանային գալարի մագնիսական մոմենտը mp (μ0-ը մագնիսական հաստատունն է):",
+    question: "Հոսանքակիր շրջանային գալարի կենտրոնում մագնիսական դաշտի ինդուկցիայի մոդուլը \\vec{p}_m-ն է, իսկ գալարի շառավիղը՝ R: Ի՞նչ բանաձևով կարտահայտվի շրջանային գալարի մագնիսական մոմենտը \\vec{p}_m (\\mu_0-ը մագնիսական հաստատունն է):",
     options: [
-      "mp = I \cdot (π R^2)",
-      "mp = μ0 I \cdot (π R^2)",
-      "mp = I R",
-      "mp = μ0 I R^2"
+      "p_m = I \\cdot (\\pi R^2)",
+      "p_m = \\mu_0 I \\cdot (\\pi R^2)",
+      "p_m = I R",
+      "p_m = \\mu_0 I R^2"
     ],
     correct_answer: 0,
   },
@@ -394,10 +394,10 @@ export const questions: Question[] = [
     topic: "Մագնիսական դաշտ",
     question: "Երկու անվերջ երկար զուգահեռ հոսող խոշոր հոսանքներ I1 և I2, որոնք հոսում են հակառակ ուղղություններով: Ո՞ր պայմանում կլինի արդյունավոր մագնիսական դաշտը զրոյ բոլոր վայրերին մոտենալիս:",
     options: [
-      "I1 = I2",
-      "I1 ≠ I2",
-      "I1 = -I2",
-      "Նշված կետերից ոչ մեկը"
+      "I_1 = I_2",
+      "I_1 \\neq I_2",
+      "I_1 = -I_2",
+      "\\text{Նշված կետերից ոչ մեկը}"
     ],
     correct_answer: 0,
   },
@@ -416,12 +416,12 @@ export const questions: Question[] = [
   {
     id: "3.2",
     topic: "Մագնիսական հոսք և Գաուսի թեորեմ",
-    question: "Մագնիսական ինդուկցիայի ⃗⃗ վեկտորի Φ հոսքը տվյալ մակերևույթի S մակերեսով բնութագրվում է հետևյալ բանաձևով.",
+    question: "Մագնիսական ինդուկցիայի \\vec{B} վեկտորի \\Phi հոսքը տվյալ մակերևույթի S մակերեսով բնութագրվում է հետևյալ բանաձևով.",
     options: [
-      "Φ = ∮_S ⃗ B · d⃗ S",
-      "Φ = ∮_C ⃗ B · d⃗ l",
-      "Φ = ∫_S ⃗ B · d⃗ S",
-      "Φ = ∫_S ⃗ E · d⃗ S"
+      "\\Phi = \\oint_S \\vec{B} \\cdot d\\vec{S}",
+      "\\Phi = \\oint_C \\vec{B} \\cdot d\\vec{l}",
+      "\\Phi = \\int_S \\vec{B} \\cdot d\\vec{S}",
+      "\\Phi = \\int_S \\vec{E} \\cdot d\\vec{S}"
     ],
     correct_answer: 2,
   },
@@ -430,10 +430,10 @@ export const questions: Question[] = [
     topic: "Մագնիսական հոսք և Գաուսի թեորեմ",
     question: "Գաուսի թեորեմը մագնիսական հոսքների մասին բանաձևաչափ արտահայտվում է հետևյալ ձևերով:",
     options: [
-      "Φ_B = ∮_S B · dS",
-      "Φ_B = ∮_C B · dl",
-      "Φ_B = ∮_S E · dS",
-      "Φ_B = ∮_S B · dS ≠ 0"
+      "\\Phi_B = \\oint_S \\vec{B} \\cdot d\\vec{S} = 0",
+      "\\Phi_B = \\oint_C \\vec{B} \\cdot d\\vec{l}",
+      "\\Phi_B = \\oint_S \\vec{E} \\cdot d\\vec{S}",
+      "\\Phi_B = \\oint_S \\vec{B} \\cdot d\\vec{S} \\neq 0"
     ],
     correct_answer: 0,
   },
@@ -452,24 +452,24 @@ export const questions: Question[] = [
   {
     id: "3.5",
     topic: "Մագնիսական հոսք և Գաուսի թեորեմ",
-    question: "Մագնիսական ինդուկցիայի ⃗⃗ վեկտորի շրջապտույտի շրջապտույտի բնութագրումը:",
+    question: "Մագնիսական ինդուկցիայի \\vec{B} վեկտորի շրջապտույտի բնութագրումը:",
     options: [
-      "∮_C B · dl",
-      "∮_S B · dS",
-      "∮_S E · dS",
-      "∮_C E · dl"
+      "\\oint_C \\vec{B} \\cdot d\\vec{l}",
+      "\\oint_S \\vec{B} \\cdot d\\vec{S}",
+      "\\oint_S \\vec{E} \\cdot d\\vec{S}",
+      "\\oint_C \\vec{E} \\cdot d\\vec{l}"
     ],
     correct_answer: 0,
   },
   {
     id: "3.6",
     topic: "Մագնիսական հոսք և Գաուսի թեորեմ",
-    question: "Մագնիսական ինդուկցիայի ⃗⃗ վեկտորի՝ երկարությամբ փակ կորով շրջապտույտի թեորեմն ինտեգրալ տեսքով արտահայտվում է հետևյալ բանաձևով.",
+    question: "Մագնիսական ինդուկցիայի \\vec{B} վեկտորի՝ երկարությամբ փակ կորով շրջապտույտի թեորեմն ինտեգրալ տեսքով արտահայտվում է հետևյալ բանաձևով.",
     options: [
-      "∮_C B · dl = μ0 I_enclosed",
-      "∮_C E · dl = - dΦ_B/dt",
-      "∮_S B · dS = Φ_B",
-      "∮_S E · dS = - ∂Φ_E/∂t"
+      "\\oint_C \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{\\text{enclosed}}",
+      "\\oint_C \\vec{E} \\cdot d\\vec{l} = - \\frac{d\\Phi_B}{dt}",
+      "\\oint_S \\vec{B} \\cdot d\\vec{S} = \\Phi_B",
+      "\\oint_S \\vec{E} \\cdot d\\vec{S} = - \\frac{\\partial \\Phi_E}{\\partial t}"
     ],
     correct_answer: 0,
   },
@@ -478,10 +478,10 @@ export const questions: Question[] = [
     topic: "Մագնիսական հոսք և Գաուսի թեորեմ",
     question: "Մագնիսական ինդուկցիայի շրջապտույտի վրա ամփոփող թեորեմը",
     options: [
-      "∮_C B · dl = μ0 I_enclosed",
-      "∮_C E · dl = - dΦ_B/dt",
-      "∮_S B · dS = Φ_B",
-      "∮_S E · dS = - ∂Φ_E/∂t"
+      "\\oint_C \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{\\text{enclosed}}",
+      "\\oint_C \\vec{E} \\cdot d\\vec{l} = - \\frac{d\\Phi_B}{dt}",
+      "\\oint_S \\vec{B} \\cdot d\\vec{S} = \\Phi_B",
+      "\\oint_S \\vec{E} \\cdot d\\vec{S} = - \\frac{\\partial \\Phi_E}{\\partial t}"
     ],
     correct_answer: 0,
   },
@@ -490,10 +490,10 @@ export const questions: Question[] = [
     topic: "Մագնիսական հոսք և Գաուսի թեորեմ",
     question: "Մագնիսական ինդուկցիայի շրջապտույտի իրական արտահայտությունը. ընտրեք ճիշտ բանաձևը:",
     options: [
-      "∮_C B · dl = μ0 I_enclosed",
-      "∮_S B · dS = Φ_B",
-      "∮_S E · dS = - dΦ_B/dt",
-      "∮_C E · dl"
+      "\\oint_C \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{\\text{enclosed}}",
+      "\\oint_S \\vec{B} \\cdot d\\vec{S} = \\Phi_B",
+      "\\oint_S \\vec{E} \\cdot d\\vec{S} = - \\frac{d\\Phi_B}{dt}",
+      "\\oint_C \\vec{E} \\cdot d\\vec{l}"
     ],
     correct_answer: 0,
   },
@@ -502,10 +502,10 @@ export const questions: Question[] = [
     topic: "Ամպերի և Լորենցի ուժեր",
     question: "The magnetic force on a current element dl in a magnetic field B is given by:",
     options: [
-      "dF = I dl × B",
-      "dF = dl × B",
-      "dF = I dl × E",
-      "dF = q v × B"
+      "d\\vec{F} = I \\, d\\vec{l} \\times \\vec{B}",
+      "d\\vec{F} = d\\vec{l} \\times \\vec{B}",
+      "d\\vec{F} = I \\, d\\vec{l} \\times \\vec{E}",
+      "d\\vec{F} = q \\vec{v} \\times \\vec{B}"
     ],
     correct_answer: 0,
   },
@@ -526,10 +526,10 @@ export const questions: Question[] = [
     topic: "Ամպերի և Լորենցի ուժեր",
     question: "Lorentz force on a moving charge q with velocity v in a magnetic field B is given by:",
     options: [
-      "F = q (v × B)",
-      "F = q (B × v)",
-      "F = q (E × v)",
-      "F = q (v × E)"
+      "\\vec{F} = q (\\vec{v} \\times \\vec{B})",
+      "\\vec{F} = q (\\vec{B} \\times \\vec{v})",
+      "\\vec{F} = q (\\vec{E} \\times \\vec{v})",
+      "\\vec{F} = q (\\vec{v} \\times \\vec{E})"
     ],
     correct_answer: 0,
   },
@@ -538,10 +538,10 @@ export const questions: Question[] = [
     topic: "Ամպերի և Լորենցի ուժեր",
     question: "The Lorentz force on a moving charge q with velocity v in a magnetic field B is given by:",
     options: [
-      "F = q (v × B)",
-      "F = q (B × v)",
-      "F = q (E × v)",
-      "F = q (v × E)"
+      "\\vec{F} = q (\\vec{v} \\times \\vec{B})",
+      "\\vec{F} = q (\\vec{B} \\times \\vec{v})",
+      "\\vec{F} = q (\\vec{E} \\times \\vec{v})",
+      "\\vec{F} = q (\\vec{v} \\times \\vec{E})"
     ],
     correct_answer: 0,
   },
@@ -562,10 +562,10 @@ export const questions: Question[] = [
     topic: "Ամպերի և Լորենցի ուժեր",
     question: "An electron moving with speed v in a uniform magnetic field B undergoes circular motion of radius R. What is the expression for the electron's mass m?",
     options: [
-      "m = e B R / v",
-      "m = - e B R / v",
-      "m = v /(e B R)",
-      "m = e B /(v R)"
+      "m = \\frac{e B R}{v}",
+      "m = -\\frac{e B R}{v}",
+      "m = \\frac{v}{e B R}",
+      "m = \\frac{e B}{v R}"
     ],
     correct_answer: 0,
   },
@@ -1124,7 +1124,7 @@ export const questions: Question[] = [
   {
     id: "7.12",
     topic: "Ինքնամակածում և մագնիսական դաշտի էներգիա",
-    question: "t = 0 պահին նկարված շղթան անջատելիս առաջացող էքստրահոսանքի կախումը ժամանակից արտահայտվում է հետևյալ բանաձևով, որտեղ I_0 -ը կայունացված հոսանքի ուժի մեծությունն է՝ I_0 = \\varepsilon / R:",
+    question: "t = 0 պահին նկարված շղթան անջատելիս առաջացող էքստրահոսանքի կախումը ժամանակից արտահայտվում է հետևյալ բանաձևով, որտեղ I_0 -ը կայունացված հոսանքի ուժի մեծությունն է՝ I_0 = \\frac{\\varepsilon}{R}:",
     options: [
       "I(t) = I_0 e^{-\\frac{R}{L}t}",
       "I(t) = I_0 \\left(1 - e^{-\\frac{R}{L}t}\\right)",
@@ -1136,7 +1136,7 @@ export const questions: Question[] = [
   {
     id: "7.13",
     topic: "Ինքնամակածում և մագնիսական դաշտի էներգիա",
-    question: "t = 0 պահին նկարված շղթան միացնելիս առաջացող հոսանքի կախումը ժամանակից արտահայտվում է հետևյալ բանաձևով, որտեղ I_0 -ը կայունացված հոսանքի ուժի մեծությունն է՝ I_0 = \\varepsilon / R:",
+    question: "t = 0 պահին նկարված շղթան միացնելիս առաջացող հոսանքի կախումը ժամանակից արտահայտվում է հետևյալ բանաձևով, որտեղ I_0 -ը կայունացված հոսանքի ուժի մեծությունն է՝ I_0 = \\frac{\\varepsilon}{R}:",
     options: [
       "I(t) = I_0 e^{-\\frac{R}{L}t}",
       "I(t) = I_0 \\left(1 - e^{-\\frac{R}{L}t}\\right)",
@@ -1510,10 +1510,10 @@ export const questions: Question[] = [
     topic: "Տատանողական կոնտուր",
     question: "Ո՞ր բանաձևով է որոշվում տատանողական կոնտուրի լրիվ էներգիան ժամանակի ցանկացած պահին:",
     options: [
-      "W = q²/(2C) + LI²/2",
-      "W = q²/C + LI²",
-      "W = CU²/2 + LI²/2",
-      "W = q²/(2C)"
+      "W = \\frac{q^2}{2C} + \\frac{LI^2}{2}",
+      "W = \\frac{q^2}{C} + LI^2",
+      "W = \\frac{CU^2}{2} + \\frac{LI^2}{2}",
+      "W = \\frac{q^2}{2C}"
     ],
     correct_answer: 2,
   },
@@ -1712,12 +1712,12 @@ export const questions: Question[] = [
   {
     id: "13.2",
     topic: "Ալիքներ",
-    question: "Տրված է ներդաշնակ տատանումների շարժման հավասարումը՝ x = 5cos(πt), որտեղ մեծություններն արտահայտված են ՄՀ-ի համապատասխան միավորներով: Որքա՞ն է տատանումների պարբերությունը:",
+    question: "Տրված է ներդաշնակ տատանումների շարժման հավասարումը՝ x = 5\\cos(\\pi t), որտեղ մեծություններն արտահայտված են ՄՀ-ի համապատասխան միավորներով: Որքա՞ն է տատանումների պարբերությունը:",
     options: [
-      "0,5 վ",
-      "π վ",
-      "2 վ",
-      "5 վ"
+      "0{,}5 \\text{ վ}",
+      "\\pi \\text{ վ}",
+      "2 \\text{ վ}",
+      "5 \\text{ վ}"
     ],
     correct_answer: 2,
   },
@@ -2036,11 +2036,11 @@ export const questions: Question[] = [
   {
     id: "16.14",
     topic: "Ինտերֆերենց և դիֆրակցիա",
-    question: "Լազերի կանաչ ճառագայթը դիֆրակտային ցանցի վրա ուղղա հայաց ընկնելիս ցանցի հետևում տեղադրված էկրանին դիտվում է դիֆ- րակտային պատկեր: Ինչպե՞ս կփոխվի պատկերը, եթե ցանցի վրա ընկնի լազերի կարմիր ճառագայթ:",
+    question: "Լազերի կանաչ ճառագայթը դիֆրակտային ցանցի վրա ուղղահայաց ընկնելիս ցանցի հետևում տեղադրված էկրանին դիտվում է դիֆրակտային պատկեր: Ինչպե՞ս կփոխվի պատկերը, եթե ցանցի վրա ընկնի լազերի կարմիր ճառագայթ:",
     options: [
-      "B կետի մաքսիմումը կմնա իր տեղում, իսկ մնացած մաքսիմում- ները կհեռանան նրանից: L ó³Ýó ¿Ïñ³Ý",
-      "B կետի մաքսիմումը կմնա իր տեղում, մնացած մաքսիմումները կմոտենան նրան:",
-      "B կետի մաքսիմումը կվերանա, իսկ իսկ մնացած մաքսիմումները կմնան իրենց տեղերում:",
+      "Կենտրոնական մաքսիմումը կմնա իր տեղում, իսկ մնացած մաքսիմումները կհեռանան նրանից:",
+      "Կենտրոնական մաքսիմումը կմնա իր տեղում, մնացած մաքսիմումները կմոտենան նրան:",
+      "Կենտրոնական մաքսիմումը կվերանա, իսկ մնացած մաքսիմումները կմնան իրենց տեղերում:",
       "Պատկերը չի փոխվի:"
     ],
     correct_answer: 0,
@@ -2288,12 +2288,12 @@ export const questions: Question[] = [
   {
     id: "18.2",
     topic: "Ֆոտոէֆեկտ և ֆոտոններ",
-    question: "Ֆոտոնի իմպուլսը p է: Որքա±ն է նրա էներգիան:",
+    question: "Ֆոտոնի իմպուլսը p է: Որքա՞ն է նրա էներգիան:",
     options: [
-      "pcE = ,",
-      "2c pE = ,",
-      "c pE = ,",
-      "2pcE = :"
+      "E = pc",
+      "E = \\frac{p}{2c}",
+      "E = \\frac{p}{c}",
+      "E = 2pc"
     ],
     correct_answer: 0,
   },
@@ -2302,10 +2302,10 @@ export const questions: Question[] = [
     topic: "Ֆոտոէֆեկտ և ֆոտոններ",
     question: "Լազերի \\lambda ալիքի երկարությամբ ճառագայթման հզորությունը P է: Քանի ֆոտոն է առաքում լազերը միավոր ժամանակամիջոցում:",
     options: [
-      "P \\lambda ,",
-      "Pc h\\lambda ,",
-      "P c \\lambda ,",
-      "P hc \\lambda :"
+      "\\frac{P\\lambda}{hc}",
+      "\\frac{Pc}{h\\lambda}",
+      "\\frac{P}{c\\lambda}",
+      "\\frac{P\\lambda}{hc}"
     ],
     correct_answer: 3,
   },
@@ -2314,10 +2314,10 @@ export const questions: Question[] = [
     topic: "Ֆոտոէֆեկտ և ֆոտոններ",
     question: "Որոշակի ժամանակամիջոցում m զանգվածով սև մարմինը կլանում է \\nu հաճախությամբ մեներանգ լուսի N ֆոտոն: Քանի՞ աստիճանով կմեծանա մարմնի ջերմաստիճանն այդ ընթացքում, եթե նրա տեսակարար ջերմունակությունը c է:",
     options: [
-      "2mc h\\nu ,",
-      "\\nuh Nmc ,",
-      "mc Nh\\nu ,",
-      "mc h\\nu :"
+      "\\frac{h\\nu}{2mc}",
+      "\\frac{Nh\\nu}{mc}",
+      "\\frac{Nh\\nu}{mc}",
+      "\\frac{h\\nu}{mc}"
     ],
     correct_answer: 2,
   },
@@ -2350,12 +2350,12 @@ export const questions: Question[] = [
     topic: "Ֆոտոէֆեկտ և ֆոտոններ",
     question: "Ո՞րն է Այնշտայնի բանաձևը ֆոտոէֆեկտի համար:",
     options: [
-      "2vmhA += \\nu ,",
-      "\\nuhAm += 2v ,",
-      "2vmhA -= \\nu ,",
-      "Amh -= 2v\\nu :"
+      "h\\nu = A + \\frac{mv^2}{2}",
+      "h\\nu = A + mv",
+      "h\\nu = A - \\frac{mv^2}{2}",
+      "h\\nu = A - mv^2"
     ],
-    correct_answer: 2,
+    correct_answer: 0,
   },
   {
     id: "18.8",
